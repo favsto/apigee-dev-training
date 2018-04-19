@@ -69,7 +69,7 @@ The following software needs to be installed in your machine:
             <year>1814</year>
         </book>
 
-9. Create a configuration file for apimocker named config.json inside mock-api/apiproxy/resources/node with the following contents:
+9. Create a configuration file for apimocker named config.json inside mock-api-v1/apiproxy/resources/node with the following contents:
 
         {
             "mockDirectory": "./mocks",
@@ -112,7 +112,7 @@ The following software needs to be installed in your machine:
 
         $ curl -v http://localhost:8080/books/121b4bb3-c971-4080-b230-571148b71969
 
-13. Add the pom.xml file available [here](solution/mock-api-v1/pom.xml) inside the mock-api-vi folder.
+13. Add the pom.xml file available [here](solution/mock-api-v1/pom.xml) inside the mock-api-v1 folder.
 
 14. Deploy using maven with the following command
 
