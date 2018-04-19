@@ -88,11 +88,11 @@ The following software needs to be installed in your machine:
 
 9. Create a file called app.js inside mock-api-v1/apiproxy/resources/node/app.js with the following contents:
 
-    var ApiMocker = require('apimocker');
-            
-    var options = {};
+        var ApiMocker = require('apimocker');
 
-    var apiMocker = ApiMocker.createServer(options)
+        var options = {};
+
+        var apiMocker = ApiMocker.createServer(options)
         .setConfigFile('config.json')
         .start();
 
@@ -114,11 +114,9 @@ The following software needs to be installed in your machine:
 
 13. Add the pom.xml file available [here](solution/mock-api-v1/pom.xml) inside the mock-api-vi folder.
 
-14. Add the zip.xml file available [here](solution/mock-api-v1/apiproxy/resources/node/node_modules/zip.xml) inside the mock-api-v1/apiproxy/resources/node/node_modules folder.
+14. Deploy using maven with the following command
 
-15. Deploy using maven with the following command
-
-        $ mvn install -Ptest -Dorg=ORGANIZATION
+        $ mvn install -Dorg=ORGANIZATION -Denv=test
 
 15. Check that when you make a request to the mock API proxy it succeeds:
 
