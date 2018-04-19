@@ -116,7 +116,7 @@ The following software needs to be installed in your machine:
 
 14. Deploy using maven with the following command
 
-        $ mvn install -Dorg=ORGANIZATION -Denv=test
+        $ mvn install -Dorg=ORGANIZATION -Denv=ENVIRONMENT
 
 15. Check that when you make a request to the mock API proxy it succeeds:
 
