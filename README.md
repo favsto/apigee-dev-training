@@ -6,8 +6,9 @@ The following software needs to be installed in your machine:
 
 1. Git
 2. Node.js (latest LTS version)
-3. JDK 1.8 or higher
-4. Maven (latest stable version)
+3. OpenSSL
+4. JDK 1.8 or higher
+5. Maven (latest stable version)
 
 NOTE: Windows users, please use the Git Bash shell whenever you need to run a command on the terminal.
 
